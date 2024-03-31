@@ -5,7 +5,7 @@ const CurrentWeather = ({ data }) => {
     // const imageUrl = `../assets/icons/${data.weather[0].icon}.png}`;
 
   return (
-    <div className="container">
+    <div className="container mt-2">
       <div className="card center mb-3 p-2" style={{ maxWidth: "540px" }}>
         <div className="row g-2 mb-0 d-flex justify-content-between align-items-center">
           <div className="col-md-8">

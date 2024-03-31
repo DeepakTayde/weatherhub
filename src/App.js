@@ -33,7 +33,7 @@ function App() {
   console.log(forecast);
 
   return (
-    <div className="container">
+    <div className="container mt-2">
       <div className="row justify-content-center">
         <Search onSearchChange={handleOnSearchChange} />
         <div className="col-md-5">{currentWeather && <CurrentWeather data={currentWeather} />}</div>
